@@ -1,0 +1,57 @@
+/**  	 |
+*@creator|
+*	Tommy|
+*@company|
+*	nonec|
+*@	 type|
+*free css|
+*/
+meter{
+	/* meter element styling only webkit*/
+	-webkit-appearance:none; /* prevent default*/
+	border:none;
+	background:#eeeeee;
+	display:inline-block;
+	height:15px;
+	width:300px;
+}
+meter:focus{
+	background:#dddddd;
+	outline:none;/* prevent webkit focus action */
+}
+meter::-webkit-meter-bar{ /* Oh~~ fucking WebKit! ~~*/
+	background:#eeeeee;
+}
+meter.tc::-webkit-meter-bar:focus{
+	background:#dddddd;
+}
+/*NOW IS THREE COLOR SET*/
+meter.tc::-webkit-meter-optimum-value{
+	background:green;
+}
+meter.tc::-webkit-meter-suboptimum-value{
+	background:yellow;
+}
+meter.tc::-webkit-meter-even-less-good-value{
+	background:red;
+}
+/* blue color set */
+meter.bc::-webkit-meter-optimum-value{
+	background:aqua;
+}
+meter.bc::-webkit-meter-suboptimum-value{
+	background:blue;
+}
+meter.bc::-webkit-meter-even-less-good-value{
+	background:#000033;
+}
+/* green color set */
+meter.gc::-webkit-meter-optimum-value{
+	background:green;
+}
+meter.gc::-webkit-meter-suboptimum-value{
+	background:yellowgreen;
+}
+meter.gc::-webkit-meter-even-less-good-value{
+	background:yellow;
+}
