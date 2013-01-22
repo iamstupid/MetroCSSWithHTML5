@@ -37,7 +37,7 @@ meter.tc::-webkit-meter-even-less-good-value{
 }
 /* blue color set */
 meter.bc::-webkit-meter-optimum-value{
-	background:aqua;
+	background:#00bbbb;
 }
 meter.bc::-webkit-meter-suboptimum-value{
 	background:blue;
@@ -53,5 +53,5 @@ meter.gc::-webkit-meter-suboptimum-value{
 	background:yellowgreen;
 }
 meter.gc::-webkit-meter-even-less-good-value{
-	background:yellow;
+	background:#999900;
 }
