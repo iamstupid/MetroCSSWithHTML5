@@ -1,6 +1,9 @@
 MetroCSSWithHTML5
 =================
-The CSS is based Cascading StyleSheet and my dear WebKit browsers.(Chrome)
+Why I do
+-----------------
+I think the webpages' style needs to update, need a more cool and simple style.
+_Windows 8 Metro_
+is a good way to do.
 <br/>
-_Only WebKit_
-<br/>
+It's simple enough and cool.
