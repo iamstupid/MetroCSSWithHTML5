@@ -2,7 +2,7 @@
 body{
 	font-family:'Segoe UI Light';
 }
-body *{
+h1,paraheader,tile{
 	-webkit-transition:all .3s linear;
 }
 h1{
@@ -29,4 +29,39 @@ paraheader{
 }
 paraheader:hover{
 	border-bottom:2px solid #222222;
+}
+tile[sqr]{
+	height:150px;
+	width:150px;
+	margin:5px;
+	padding:5px;
+	border:none;
+}
+tile[tra]{
+	height:150px;
+	width:300px;
+	margin:5px;
+	padding:5px;
+	border:none;
+}
+tile:hover{
+	border:rgba(240,240,240,.6) 4px solid;
+}
+tile:active{
+	border:none;
+	-webkit-transform:scale(1.05);
+}
+tile tit{
+	display:block;
+	margin:-5px;
+	font-size:25px;
+}
+tile content{
+	padding:5px;
+}
+tile content .defimg{
+	height:90px;
+	width:90px;
+	float:left;
+	clear:both;
 }
