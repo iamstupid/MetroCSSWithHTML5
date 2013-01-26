@@ -55,3 +55,23 @@ meter.gc::-webkit-meter-suboptimum-value{
 meter.gc::-webkit-meter-even-less-good-value{
 	background:#999900;
 }
+/* redbluepurple color set */
+meter.pc::-webkit-meter-optimum-value{
+	background:blue;
+}
+meter.pc::-webkit-meter-suboptimum-value{
+	background:purple;
+}
+meter.pc::-webkit-meter-even-less-good-value{
+	background:#660000;
+}
+/* bluegreenyellow color set */
+meter.yc::-webkit-meter-optimum-value{
+	background:blue;
+}
+meter.yc::-webkit-meter-suboptimum-value{
+	background:green;
+}
+meter.yc::-webkit-meter-even-less-good-value{
+	background:#666600;
+}
