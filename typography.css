@@ -1,0 +1,32 @@
+/* The tyography part */
+body{
+	font-family:'Segoe UI Light';
+}
+body *{
+	-webkit-transition:all .3s linear;
+}
+h1{
+	font-size:50px;
+	color:#222222;
+}
+h1:hover,paraheader:hover{
+	color:#000000;
+}
+h1:active,paraheader:active{
+	color:#444444;
+}
+tile title{
+	display:block;
+	margin:-5px;
+	font-size:20px;
+}
+paraheader{
+	display:block;
+	font-size:30px;
+	border:none;
+	border-bottom:1px solid black;
+	color:#222222;
+}
+paraheader:hover{
+	border-bottom:2px solid #222222;
+}
